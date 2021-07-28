@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link as ReachRouterLink } from "react-router-dom";
 import {
   Container,
@@ -41,13 +41,27 @@ Header.Logo = function HeaderLogo({ to, ...restProps }) {
   );
 };
 
-Header.Search = function HeaderSearch({ ...restProps }) {
+Header.Search = function HeaderSearch({
+  searchTerm,
+  setSearchTerm,
+  ...restProps
+}) {
+  const [searchActive, setSearchActive] = useState(false);
   return (
     <Search {...restProps}>
       <SearchIcon>
-        <img src="/images/icons/search.png" alt="Search" />
+        <img
+          src="/images/icons/search.png"
+          alt="Search"
+          onClick={() => setSearchActive((searchActive) => !searchActive)}
+        />
       </SearchIcon>
-      <SearchInput />
+      <SearchInput
+        value={searchTerm}
+        onChange={({ target }) => setSearchTerm(target.value)}
+        placeholder="Search films and series"
+        active={searchActive}
+      />
     </Search>
   );
 };

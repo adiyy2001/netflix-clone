@@ -7,8 +7,11 @@ import logo from "../logo.svg";
 
 export default function BrowseContainer({ slides }) {
   const { firebase } = useContext(FirebaseContext);
+
+  const [searchTerm, setSearchTerm] = useState("");
   const [loading, setLoading] = useState(true);
   const [profile, setProfile] = useState({});
+
   const user = firebase.auth().currentUser || {};
   useEffect(() => {
     setTimeout(() => {
@@ -29,6 +32,10 @@ export default function BrowseContainer({ slides }) {
           </Header.Group>
 
           <Header.Group>
+            <Header.Search
+              searchTerm={searchTerm}
+              setSearchTerm={setSearchTerm}
+            />
             <Header.Profile>
               <Header.Picture src={user.photoURL} />
               <Header.Dropdown>
