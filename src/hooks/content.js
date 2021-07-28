@@ -11,7 +11,6 @@ export default function useContent(target) {
       .collection(target)
       .get()
       .then((snapshot) => {
-        console.log(snapshot);
         const allContent = snapshot.docs.map((contentObject) => ({
           ...contentObject.data(),
           docId: contentObject.id,
