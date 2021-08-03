@@ -20,7 +20,13 @@ import {
 } from "./header.style";
 
 export default function Header({ bg = true, children, ...restProps }) {
-  return bg ? <Background {...restProps}>{children}</Background> : children;
+  return bg ? (
+    <Background {...restProps} data-testid="header-bg">
+      {children}
+    </Background>
+  ) : (
+    children
+  );
 }
 
 Header.Frame = function HeaderFrame({ children, ...restProps }) {

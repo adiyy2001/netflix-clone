@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> renders the <Footer /> with populated data 1`] = `
+<div
+  class="footerstyle__Container-sc-1xglys9-0 bOXTov"
+>
+  <p
+    class="footerstyle__Title-sc-1xglys9-4 qwPCW"
+  >
+    Questions? Contact us.
+  </p>
+  <div
+    class="footerstyle__Break-sc-1xglys9-6 kYpYwN"
+  />
+  <div
+    class="footerstyle__Row-sc-1xglys9-2 eHsIQA"
+  >
+    <div
+      class="footerstyle__Column-sc-1xglys9-1 eSxPWj"
+    >
+      <a
+        class="footerstyle__Link-sc-1xglys9-3 dynaRX"
+        href="#"
+      >
+        FAQ
+      </a>
+      <a
+        class="footerstyle__Link-sc-1xglys9-3 dynaRX"
+        href="#"
+      >
+        Investor Relations
+      </a>
+      <a
+        class="footerstyle__Link-sc-1xglys9-3 dynaRX"
+        href="#"
+      >
+        Ways to Watch
+      </a>
+      <a
+        class="footerstyle__Link-sc-1xglys9-3 dynaRX"
+        href="#"
+      >
+        Corporate Information
+      </a>
+      <a
+        class="footerstyle__Link-sc-1xglys9-3 dynaRX"
+        href="#"
+      >
+        Netflix Originals
+      </a>
+    </div>
+    <div
+      class="footerstyle__Column-sc-1xglys9-1 eSxPWj"
+    >
+      <a
+        class="footerstyle__Link-sc-1xglys9-3 dynaRX"
+        href="#"
+      >
+        Help Centre
+      </a>
+      <a
+        class="footerstyle__Link-sc-1xglys9-3 dynaRX"
+        href="#"
+      >
+        Jobs
+      </a>
+      <a
+        class="footerstyle__Link-sc-1xglys9-3 dynaRX"
+        href="#"
+      >
+        Terms of Use
+      </a>
+      <a
+        class="footerstyle__Link-sc-1xglys9-3 dynaRX"
+        href="#"
+      >
+        Contact Us
+      </a>
+    </div>
+    <div
+      class="footerstyle__Column-sc-1xglys9-1 eSxPWj"
+    >
+      <a
+        class="footerstyle__Link-sc-1xglys9-3 dynaRX"
+        href="#"
+      >
+        Account
+      </a>
+      <a
+        class="footerstyle__Link-sc-1xglys9-3 dynaRX"
+        href="#"
+      >
+        Redeem gift cards
+      </a>
+      <a
+        class="footerstyle__Link-sc-1xglys9-3 dynaRX"
+        href="#"
+      >
+        Privacy
+      </a>
+      <a
+        class="footerstyle__Link-sc-1xglys9-3 dynaRX"
+        href="#"
+      >
+        Speed Test
+      </a>
+    </div>
+    <div
+      class="footerstyle__Column-sc-1xglys9-1 eSxPWj"
+    >
+      <a
+        class="footerstyle__Link-sc-1xglys9-3 dynaRX"
+        href="#"
+      >
+        Media Centre
+      </a>
+      <a
+        class="footerstyle__Link-sc-1xglys9-3 dynaRX"
+        href="#"
+      >
+        Buy gift cards
+      </a>
+      <a
+        class="footerstyle__Link-sc-1xglys9-3 dynaRX"
+        href="#"
+      >
+        Cookie Preferences
+      </a>
+      <a
+        class="footerstyle__Link-sc-1xglys9-3 dynaRX"
+        href="#"
+      >
+        Legal Notices
+      </a>
+    </div>
+  </div>
+  <div
+    class="footerstyle__Break-sc-1xglys9-6 kYpYwN"
+  />
+  <p
+    class="footerstyle__Text-sc-1xglys9-5 fTUfhn"
+  >
+    Netflix United Kingdom
+  </p>
+</div>
+`;
